@@ -1,0 +1,54 @@
+# Secrets
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Node artifacts (if ever used)
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archives
+*.zip
+*.tar.gz
+
+# OS files
+.DS_Store
+
+# Airflow generated folders
+logs/
+
+# Generated data outputs
+data/processed/
+data/raw/books_scraped.csv
+data/raw/gdrive_data.csv
+data/raw/users_api.json
