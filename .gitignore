@@ -2,6 +2,7 @@
 .env
 
 # IDE
+.agent/
 .idea/
 .vscode/
 
@@ -36,6 +37,7 @@ node_modules/
 *.bak
 *.swp
 *.swo
+.github/
 
 # Archives
 *.zip
